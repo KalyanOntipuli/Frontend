@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            height: 100px;
+            width: 200px;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body id="body">
+    <button onclick="buttonClick()">click here</button>
+    <select name="" id="" onchange="onDropDownChange(event)">
+        <option value="One">One</option>
+        <option value="Two">Two</option>
+        <option value="Three">Three</option>
+        <option value="Four">Four</option>
+        <option value="Five">Five</option>
+    </select>
+
+    <input type="text" onkeydown="keyPress(event)"><br><br>
+    <div onmouseover="mouseOver(event)" onmouseout="mouseOut(event)" class="box" id="box"></div>
+
+    <!-- <label for="">Firstname</label>
+    <input type="text" name="firstname"><br>
+    <label for="">Last name</label>
+    <input type="text" name="lastname"> -->
+
+    <script src="events.js"></script>
+</body>
+</html>
